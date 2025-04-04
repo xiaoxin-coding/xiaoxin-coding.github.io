@@ -1,3 +1,3 @@
-var posts=["2025/04/04/04-为什么MySQL使用B+树作为索引结构/","2025/04/04/01-MySQL的索引类型有哪些/","2025/04/04/07-MySQL建立索引时需要注意的事项/","2025/04/04/05-MySQL索引的最左前缀匹配原则是什么/","2025/04/04/02-MySQL存储引擎有哪些，区别是什么/","2025/04/04/08-MySQl中回表是什么？/","2025/04/04/03-MySQL中InoDB索引中聚簇索引和非聚簇索引的区别/","2025/04/04/hello-world/","2025/04/04/09-MySQL中使用索引一定有效吗？如何排查索引效果？/","2025/04/04/10-MySQL中的索引数量是否越多越好？/","2025/04/04/06-MySQL三层B+树可以存储多少数据？/"];function toRandomPost(){
+var posts=["2025/04/04/hello-world/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
